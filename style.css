@@ -1,0 +1,489 @@
+:root{
+    --color1:#2534BD;
+    --color2: #EF634D;
+    --l:#ffffff;
+    --padding: 208px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-family: "Roboto" , sans-serif;
+    font-size: 81px;
+    color: var(--color2);
+}
+
+h2 {
+    font-family: "Roboto" , sans-serif;
+}
+
+h3 {
+    font-family: "Roboto" , sans-serif;
+}
+
+h5 {
+    font-family: "Roboto" , sans-serif;
+    font-size: 33px;
+    padding-left:10% ;
+    padding-top: 15px;
+    padding-bottom: 70px;
+    color: var(--l);
+    cursor: pointer;
+}
+
+p{
+    color: var(--l);
+    font-family: 'Open Sans', sans-serif;
+    font-size:20px;
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #2534BD;
+    width: 100%;
+}
+
+.first .nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.first .nav .bars{
+    font-size: 33px;
+    padding-right:10% ;
+    padding-top: 19px;
+    padding-bottom: 70px;
+    color: var(--l);
+}
+
+.first .nav .bars i:hover{
+    color: #d2cfcf;
+}
+
+.container-first{
+    display: flex;
+    justify-content:space-evenly;
+    margin-bottom: 45px;
+}
+
+.first-img{
+    width: 45%;
+    display: flex;
+    position: relative;
+    left: 10%;
+}
+
+.first-img img{
+    width: 100%;
+    position: relative;
+    height: 680px;
+}
+
+.first-img .color{
+    background-color: var(--color2);
+    position: absolute;
+    width: 50px;
+    height: 680px;
+}
+
+.first-img .logo{
+    position: absolute;
+    width: 20%;
+    height: 5%;
+    left: 160%;
+    top: 10%;
+}
+
+.first-img .logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.first-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-info p{
+    padding-bottom: 30px;
+}
+
+.first-info h1{
+    position: relative;
+    bottom: 50px;
+}
+
+.info-img{
+    width: 28%;
+    padding-top: 20px;
+}
+
+.info-img > img{
+    width: 100%;
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+.second p {
+    font-size: 20px;
+    color: var(--color1);
+}
+
+.second h2 {
+    font-size: 54px;
+    color: var(--color1);
+}
+
+.second{
+    background-color: var(--l);
+    width: 100%;
+    height: 100vh;
+}
+
+.container-second{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+    margin: 65px;
+}
+
+.text-second{
+    display: flex;
+    justify-content:center;
+    gap: 3rem;
+    flex-direction: column;
+}
+
+.links-second{
+    background-color: var(--color2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.links-second ul{
+    list-style-type: none;
+    padding: 130px 110px 130px 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.links-second ul li{
+    margin: 25px 20px;
+    padding-right: 10px;
+}
+
+.links-second ul li a{
+    text-decoration: none;
+    color:var(--l);
+    font-family: "Roboto" , sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.5s ease;
+}
+
+.links-second ul li button{
+    background-color: var(--color1);
+    border:none;
+    color: var(--l);
+    padding: 10px 30px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    transition: 0.5s ease;
+}
+
+.links-second ul li a:hover{
+    color: #d2cfcf;
+}
+
+.links-second ul li button:hover{
+    background-color: #15207d;
+}
+
+/*------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+
+.third{
+    background-color: var(--color1);
+}
+
+.container-third{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 35px 10%;
+}
+
+.container-third h2{
+    font-size: 54px;
+    color: var(--color2);
+    margin-top: 85px;
+}
+
+.container-third p{
+    font-size: 27px;
+    font-weight: bold;
+    margin: 38px 0;
+}
+
+.img-third{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    margin-bottom: 50px;
+}
+
+.img-third div{
+    background-color: #ffffff;
+    width: 28%;
+    height: 22%;
+    align-items: center;
+    margin-right: 15px;
+    transition: 0.7s ease;
+}
+
+.img-third div img{
+    width:100%;
+}
+
+.img-third .img-container1 img{
+    margin: 70px 0;
+}
+
+.img-third .img-container2 img{
+    margin: 60px 0;
+}
+
+.img-third .img-container3 img{
+    margin: 15px 0;
+}
+
+.img-third .img-container4 img{
+    margin: 35px 0;
+}
+
+.img-third div:hover{
+    transform: scale(1.05);
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+
+
+.container-fourth h2{
+    font-size: 40.5px;
+    color: var(--color1);
+    position: relative;
+}
+
+.container-fourth p{
+    font-size: 27px;
+    color: var(--color1);
+    margin: 38px 0;
+    position: relative;
+}
+
+.container-fourth{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text-fourth{
+    margin-left: 10%;
+    position: relative;
+}
+
+.text-fourth h2{
+    padding-left: 30px;
+}
+
+.text-fourth p{
+    padding-left: 30px;
+}
+
+.border{
+    background-color: var(--color1);
+    height: 120px;
+    width: 5px;
+    position: absolute;
+}
+
+.container-fourth{
+    width: 100%;
+    height: 100vh;
+}
+
+.img-fourth{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.img-fourth div{
+    background-color: #d2cfcf;
+    align-items: center;
+}
+
+.img-fourth .f-img{
+    width: 30%;
+    height: 60%;
+    transition: 0.8s ease;
+}
+
+.img-fourth .f-img img{
+    width: 100%;
+}
+
+.txt{
+    width: 25%;
+    height: 99%;
+    text-align: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.txt h2{
+    padding: 0 25px;
+    margin-top: 30%;
+}
+
+.img-fourth .s-img{
+    width:37%;
+    height: 99%;
+    position: relative;
+}
+
+.img-fourth .s-img img{
+    width:100% ;
+    height: 100%;
+}
+
+.f-img:hover{
+    transform:translateY(-10%);
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+
+
+.fifth{
+    background-color: var(--color1);
+    width: 100%;
+    height: 60vh;
+}
+
+.container-fifth{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+    align-items: center;
+    text-align: center;
+}
+
+.container-fifth h2{
+    font-size: 40.5px;
+    color: #ffffff;
+    margin: 50px 0;
+}
+
+.container-fifth div{
+    width: 35%;
+}
+
+.container-fifth div img {
+    width: 100%;
+}
+
+/*------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+
+.sixth{
+    width: 100%;
+}
+
+.container-sixth{
+    display: flex;
+}
+
+.img-sixth{
+    width: 50%;
+}
+
+.img-sixth img{
+    width: 100%;
+    height: 100%;
+}
+
+.text-sixth{
+    width: 50%;
+    height: 115vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--color2);
+}
+
+.text-sixth a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+    font-family: "open sans",sans-serif;
+    padding: 33px 0 5px 0;
+    border-bottom: solid 2px var(--color1);
+    margin-left: 6%;
+    transition: 0.7s ease;
+}
+
+.text-sixth a:hover{
+    color: #d2cfcf;
+}
+
+.text-sixth p {
+    font-size: 20px;
+    padding: 33px;
+}
+
+.par{
+    margin: 15% 6%;
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+
+.footer{
+    background-color: var(--color1);
+}
+
+.footer div{
+    padding: 50px 0 25px 30px;
+}
+
+.footer div p{
+    font-size: 15.75px;
+    position: relative;
+    margin-top: 20px;
+    margin-left:40px ;
+    padding-top: 10px;
+    border-top: 2px solid var(--l);
+}
